@@ -6,7 +6,7 @@ const port = 3000
 
 require('dotenv').config()
 require('./database')
-require('./passport')
+require('./config/passport')
 
 const authRouter = require('./routes/auth')
 const usersRouter = require('./routes/users')

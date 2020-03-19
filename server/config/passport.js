@@ -3,7 +3,7 @@ const passport = require('passport')
 const { Strategy: LocalStrategy } = require('passport-local')
 const { Strategy: JWTStrategy, ExtractJwt } = require('passport-jwt')
 
-const User = require('./models/user')
+const User = require('../models/user')
 
 passport.use(
   new LocalStrategy(
