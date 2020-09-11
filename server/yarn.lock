@@ -55,13 +55,13 @@ basic-auth@~2.0.1:
   dependencies:
     safe-buffer "5.1.2"
 
-bcrypt@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npm.taobao.org/bcrypt/download/bcrypt-4.0.1.tgz#06e21e749a061020e4ff1283c1faa93187ac57fe"
-  integrity sha1-BuIedJoGECDk/xKDwfqpMYesV/4=
+bcrypt@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npm.taobao.org/bcrypt/download/bcrypt-5.0.0.tgz#051407c7cd5ffbfb773d541ca3760ea0754e37e2"
+  integrity sha1-BRQHx81f+/t3PVQco3YOoHVON+I=
   dependencies:
-    node-addon-api "^2.0.0"
-    node-pre-gyp "0.14.0"
+    node-addon-api "^3.0.0"
+    node-pre-gyp "0.15.0"
 
 bl@^2.2.0:
   version "2.2.1"
@@ -583,7 +583,7 @@ minizlib@^1.2.1:
   dependencies:
     minipass "^2.9.0"
 
-mkdirp@^0.5.0, mkdirp@^0.5.1:
+mkdirp@^0.5.0, mkdirp@^0.5.3:
   version "0.5.5"
   resolved "https://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.5.tgz?cache=0&sync_timestamp=1587535418745&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmkdirp%2Fdownload%2Fmkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
@@ -592,7 +592,7 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
 
 mongodb@3.6.1:
   version "3.6.1"
-  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.6.1.tgz?cache=0&sync_timestamp=1599050411639&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmongodb%2Fdownload%2Fmongodb-3.6.1.tgz#2c5cc2a81456ba183e8c432d80e78732cc72dabd"
+  resolved "https://registry.npm.taobao.org/mongodb/download/mongodb-3.6.1.tgz#2c5cc2a81456ba183e8c432d80e78732cc72dabd"
   integrity sha1-LFzCqBRWuhg+jEMtgOeHMsxy2r0=
   dependencies:
     bl "^2.2.0"
@@ -609,9 +609,9 @@ mongoose-legacy-pluralize@1.0.2:
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
 mongoose@^5.10.3:
-  version "5.10.3"
-  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.10.3.tgz#ef28cda3f11e5bf75a309a25e9899f856a5a5370"
-  integrity sha1-7yjNo/EeW/daMJol6YmfhWpaU3A=
+  version "5.10.4"
+  resolved "https://registry.npm.taobao.org/mongoose/download/mongoose-5.10.4.tgz#09519261998243de47ed72ed28dc8c3adbf6a910"
+  integrity sha1-CVGSYZmCQ95H7XLtKNyMOtv2qRA=
   dependencies:
     bson "^1.1.4"
     kareem "2.3.1"
@@ -667,7 +667,7 @@ ms@2.1.2, ms@^2.1.1:
   resolved "https://registry.npm.taobao.org/ms/download/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
 
-needle@^2.2.1:
+needle@^2.5.0:
   version "2.5.2"
   resolved "https://registry.npm.taobao.org/needle/download/needle-2.5.2.tgz?cache=0&sync_timestamp=1598999423946&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fneedle%2Fdownload%2Fneedle-2.5.2.tgz#cf1a8fce382b5a280108bba90a14993c00e4010a"
   integrity sha1-zxqPzjgrWigBCLupChSZPADkAQo=
@@ -681,19 +681,19 @@ negotiator@0.6.2:
   resolved "https://registry.npm.taobao.org/negotiator/download/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
-node-addon-api@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.npm.taobao.org/node-addon-api/download/node-addon-api-2.0.2.tgz?cache=0&sync_timestamp=1595260356673&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-addon-api%2Fdownload%2Fnode-addon-api-2.0.2.tgz#432cfa82962ce494b132e9d72a15b29f71ff5d32"
-  integrity sha1-Qyz6gpYs5JSxMunXKhWyn3H/XTI=
+node-addon-api@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/node-addon-api/download/node-addon-api-3.0.0.tgz?cache=0&sync_timestamp=1595260356673&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-addon-api%2Fdownload%2Fnode-addon-api-3.0.0.tgz#812446a1001a54f71663bed188314bba07e09247"
+  integrity sha1-gSRGoQAaVPcWY77RiDFLugfgkkc=
 
-node-pre-gyp@0.14.0:
-  version "0.14.0"
-  resolved "https://registry.npm.taobao.org/node-pre-gyp/download/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
-  integrity sha1-mgWWUzuHcom8rU4UOYLKPZBN3IM=
+node-pre-gyp@0.15.0:
+  version "0.15.0"
+  resolved "https://registry.npm.taobao.org/node-pre-gyp/download/node-pre-gyp-0.15.0.tgz#c2fc383276b74c7ffa842925241553e8b40f1087"
+  integrity sha1-wvw4Mna3TH/6hCklJBVT6LQPEIc=
   dependencies:
     detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
+    mkdirp "^0.5.3"
+    needle "^2.5.0"
     nopt "^4.0.1"
     npm-packlist "^1.1.6"
     npmlog "^4.0.2"
